@@ -4,10 +4,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = '084nrf+u0&3_r@y*pvw2k!9gx@eg6f1obh8%3ot^&n8w@h+b&%'
+SECRET_KEY = 'yoursecretkey'
 
-# Не запускать с DEBUG=True в продакшене!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
